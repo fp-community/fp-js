@@ -5,6 +5,7 @@ const pipe = require('./pipe');
 const flat = require('./flat');
 const arrayOf = require('./arrayOf');
 const get = require('./get');
+const filter = require('./filter');
 
 module.exports = {
     sum,
@@ -14,4 +15,5 @@ module.exports = {
     flat,
     arrayOf,
     get,
+    filter,
 }
