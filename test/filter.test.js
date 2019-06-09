@@ -13,4 +13,7 @@ test('filter function', () => {
     ];
 
     expect(filter((obj) => obj.sign == true)(col)).toEqual(expectedResult);
+
+    const emptyArr = [];
+    expect(filter()(emptyArr)).toEqual([]);
 });

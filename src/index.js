@@ -6,6 +6,8 @@ const flat = require('./flat');
 const arrayOf = require('./arrayOf');
 const get = require('./get');
 const filter = require('./filter');
+const first = require('./first');
+const last = require('./last');
 
 module.exports = {
     sum,
@@ -16,4 +18,6 @@ module.exports = {
     arrayOf,
     get,
     filter,
+    first,
+    last
 }
