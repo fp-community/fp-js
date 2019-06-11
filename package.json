@@ -1,6 +1,6 @@
 {
-  "name": "learnJs",
-  "version": "1.0.0",
+  "name": "fp-js",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
