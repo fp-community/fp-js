@@ -1,6 +1,6 @@
-const get = (attr) => (obj) => {
-    const value = eval(`obj.${attr}`);
-    return value ? value : null;
-};
+const get = attr => obj => {
+  const value = eval(`obj.${attr}`)
+  return value ? value : null
+}
 
-module.exports = get;
+module.exports = get

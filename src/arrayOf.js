@@ -1,5 +1,5 @@
 const arrayOf = (...args) => {
-    return [...args];    
+  return [...args]
 }
 
-module.exports = arrayOf;
+module.exports = arrayOf

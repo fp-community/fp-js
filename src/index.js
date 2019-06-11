@@ -1,21 +1,21 @@
-const map = require('./map');
-const reduce = require('./reduce');
-const pipe = require('./pipe');
-const flat = require('./flat');
-const arrayOf = require('./arrayOf');
-const get = require('./get');
-const filter = require('./filter');
-const first = require('./first');
-const last = require('./last');
+const map = require('./map')
+const reduce = require('./reduce')
+const pipe = require('./pipe')
+const flat = require('./flat')
+const arrayOf = require('./arrayOf')
+const get = require('./get')
+const filter = require('./filter')
+const first = require('./first')
+const last = require('./last')
 
 module.exports = {
-    map,
-    reduce,
-    pipe,
-    flat,
-    arrayOf,
-    get,
-    filter,
-    first,
-    last
+  map,
+  reduce,
+  pipe,
+  flat,
+  arrayOf,
+  get,
+  filter,
+  first,
+  last
 }

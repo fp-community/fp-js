@@ -1,6 +1,6 @@
-const first = (obj) => {
-    const data = obj[0];
-    return data ? data : null;
-};
+const first = obj => {
+  const data = obj[0]
+  return data ? data : null
+}
 
-module.exports = first;
+module.exports = first

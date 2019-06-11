@@ -1,10 +1,10 @@
-const filter = (condFn) => (col) => {
-    const result = [];
-    col.forEach((obj) => {
-        condFn(obj) ? result.push(obj) : null;
-    });
+const filter = condFn => col => {
+  const result = []
+  col.forEach(obj => {
+    condFn(obj) ? result.push(obj) : null
+  })
 
-    return result;
+  return result
 }
 
-module.exports = filter;
+module.exports = filter
