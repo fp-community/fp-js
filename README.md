@@ -1,5 +1,6 @@
-# fp-js
-FP library for JS
+# fp-js [![CircleCI](https://circleci.com/gh/fp-community/fp-js/tree/development.svg?style=svg)](https://circleci.com/gh/fp-community/fp-js/tree/development)
+FP library for JS 
+
 
 ## Intorudction
 This project is not deployed yet package manager like NPM
