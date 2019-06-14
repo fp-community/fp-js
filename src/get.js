@@ -1,12 +1,16 @@
-const get = (attr) => (obj) => {
-  if (!obj) return
+const get = attr => obj => {
+  if (!obj || !attr) return
 
-  if (typeof attr !== 'string') return
+  if (Object.prototype.toString.call(obj) !== '[object Object]') return
 
-  if (attr.match(/\./)) {
-    const [first, ...rest] = attr.split('.')
+  if (Object.prototype.toString.call(attr) !== '[object String]') return
 
-    return get(rest.join(''))(obj[first])
+  const nested = attr.match(/\./)
+  if (nested && nested.index !== 0) {
+    const first = attr.substring(0, nested.index)
+    const rest = attr.substring(nested.index + 1)
+
+    return get(rest)(obj[first])
   }
 
   return obj[attr]
