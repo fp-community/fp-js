@@ -7,6 +7,7 @@ const get = require('./get')
 const filter = require('./filter')
 const first = require('./first')
 const last = require('./last')
+const isPlainObject = require('./isPlainObject')
 
 module.exports = {
   map,
@@ -17,5 +18,6 @@ module.exports = {
   get,
   filter,
   first,
-  last
+  last,
+  isPlainObject
 }
